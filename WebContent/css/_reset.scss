@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline:none;
+    outline: 0;
+  }
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;  
+    font: inherit;
+  }
+  :before, :after {
+      content: '';
+      position:absolute;
+      left: 0;
+      width: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+  
+  ol, ul, li {
+      list-style: none;
+  }
+  .inline{
+  	li{
+  		display: inline-block;
+  	}
+  }
+ol, ul{
+  	li{
+  		&:last-child{
+	  		margin-right:0;
+	  	}
+  	}
+}
+  a{
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    transition: all .5s ease;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+      &:hover{
+          text-decoration: none;
+      }  
+  }
+  img{
+      border-style:none;
+  }
+.img-fluid{
+    min-width: 100%;
+    max-width: 100%;
+    width:100%;
+    height: auto;
+  }
+ .img-fluidThumb{
+    min-width: 100%;
+    max-width: 100%;
+    width:100%;
+    height: auto;
+    border-radius:4px;
+  }
+.profileCircle{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	overflow:hideen;
+}
+  :active, :focus{
+    outline: 0;
+    outline: none;
+    box-shadow:none;
+  }
+  input,
+  textarea,
+  button,
+  select,
+  a {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    outline: 0;
+    box-shadow:none;
+  }
+  a{
+    color: inherit;
+  }
+  
+  *:focus {
+      outline: none !important;
+      outline: 0 !important;
+      box-shadow: none !important;
+  }
+  .voffset {
+      margin-top: 2px;
+  }
+  .voffset1 {
+      margin-top: 5px;
+  }
+  .voffset2 {
+      margin-top: 10px;
+  }
+  .voffset3 {
+      margin-top: 15px;
+  }
+  .voffset4 {
+      margin-top: 30px;
+  }
+  .voffset5 {
+      margin-top: 40px;
+  }
+  .voffset6 {
+      margin-top: 60px;
+  }
+  .voffset7 {
+      margin-top: 80px;
+  }
+// =======================  START CODE FOR GRID BOX STYLE HERE  =====================
+.flexBox{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-between;
+	li{
+		 box-sizing: border-box;
+		 padding: .2rem;
+	}
+    &.col3{
+    	li{
+    		flex: 1 0 calc(100% / 3);
+    	}
+    }
+    &.col4{
+    	li{
+    		flex: 1 0 calc(100% / 4);
+    	}
+    }
+}
+.listBox{
+	li{
+		display:block;
+		width:100%;
+		a{
+			display:block;
+			width:100%;
+			border-radius:4px;
+		}
+	}
+	&.lgrayBg{
+		li{
+			a{
+				background-color:$lgray;
+				color:$base;
+			}
+		}
+	}
+}
+
+.catList{
+	li{
+		a{
+			padding-top:20px;
+			padding-bottom:20px;
+			font-size:20.22px;
+			font-weight:800;
+			span{
+				display:block;
+				width:100%;
+				font-size:12.22px;
+				color:$slate;
+				font-weight:400;
+				letter-spacing:0.033em;
+			}
+			&:hover{
+				background:$white;
+				color:$green;
+				box-shadow:0 0 20px rgba($base, .25);
+			}
+		}
+	}
+}
+// =======================  END CODE FOR GRID BOX STYLE HERE  =======================  
+//  =============  START CODE FOR SECTION DEFINE HERE  ====================
+section{
+	padding-top:60px;
+	padding-bottom:60px;
+	&.noTopGap{
+		padding-top:0;
+	}
+}
+.btmCurveShape{
+	width:100%;
+	height:12vh;
+}
+.callbackCurve{
+	position:relative;
+	top:-60px;
+	padding-bottom:45px;
+	box-shadow:0 30px 30px rgba($base, .075);
+}
+article{
+	border-radius:4px;
+	width:100%;
+	transition:all .5s ease;
+	&.lgray{
+		background-color:$lgray;
+		&:hover{
+			background:$white;
+			box-shadow:0 0 20px rgba($base, .1);
+		}
+	}
+	.wrapCnt{
+		padding:20px 20px 30px 20px;
+	}
+}
+
+//  =============  END CODE FOR SECTION DEFINE HERE  ======================
+.whiteBg{
+	background:$white;
+}
+.baseBg{
+	background-color:$baseBg;
+}
+/* .lgrayBg{
+	background-color:$lgray;
+} */
+.gradBg{
+	background-image: linear-gradient(-90deg, $green, $blue);
+}
+
+.whiteTxt{
+	color:$white
+}
+.lgrayTxt{
+	color:$lgray;
+}
+.greenTxt{
+	color:$green;
+}
+.redTxt{
+	color:$red;
+}
+.silverTxt{
+	color:$silver;
+}
+.slateTxt{
+	color:$slate;
+}
+//  =============  END CODE FOR COLOR VARIATION HERE  ======================
+//  =============  START CODE FOR TYPOGRAPHY HERE  =========================
+h2{
+	font-size: 29.88px;
+	letter-spacing: -0.033em;
+	font-weight:800;
+	line-height:1;
+	&.lgt{
+		font-weight:300;
+	}
+}
+h3{
+	&.statCount{
+		font-size:30.33px;
+		font-weight:300;
+		line-height:1;
+	}
+}
+ h4{
+	font-size:18.11px;
+	font-weight:600;
+	line-height:1;
+	&.bold{
+		font-weight:700;
+	}
+}
+h5{
+	font-size: 16.22px;
+	&.bold{
+		font-weight:600;
+	}
+}
+ h6{
+ 	font-size: 13.88px;
+ 	letter-spacing: 0.033em;
+ 	&.bold{
+ 		font-weight:600;
+ 	}
+ 	small{
+ 		font-size:12.22px;
+ 	}
+ }
+ p{
+ 	font-size:13.88px;
+ 	small{
+ 		font-size:12.22px;
+ 		letter-spacing: 0.044em;
+ 	}
+ 	&.bold{
+ 		font-weight:700;
+ 	}
+ }
+.text-uppercase{
+	text-transform: uppercase;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.currencySymbool{
+	position: relative;
+	padding-left:10px;
+	&:before{
+		position:absolute;
+		left:0;
+	}
+	&.inr{
+		&:before{
+			content:'\20B9' !important;
+		}
+		
+	}
+}
+//  =============  START CODE FOR TYPOGRAPHY HERE  =========================
+//  =============  START CODE FOR LINK BUTTON HERE  ========================
+.btnsWrap{
+	.btnLink{
+		margin-right:10px;
+	}
+}
+.btnLink{
+	border-radius:4px;
+	font-size:16px;
+	font-weight:600;
+	height:50px;
+	line-height:50px;
+	cursor:pointer;
+	transition: all .25s ease;
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+	min-width:260px;
+	max-width:300px;
+	text-align:center;
+	border:1px solid transparent;
+	span{
+		position: relative;
+		padding-right:10px;
+		i{
+			font-size: 14px;
+			position:absolute;
+			right:0;
+			top:40%;
+			  border: solid $white;
+			  border-width: 0 2px 2px 0;
+			  display: inline-block;
+			  padding: 2px;
+			  transition:all .25s ease;
+			   transform: rotate(-45deg);
+  			-webkit-transform: rotate(-45deg);
+  			&.white{
+  				border-color:$white;
+  			}
+		}
+	}
+	.fullWidth{
+		display: block;
+		width:100%;
+	}
+	&.whiteBg{
+		background-color:$white;
+	}
+	&.green{
+		color:$green;
+		i{
+			border-color:$green;
+		}
+	}
+	&.transGreen{
+		background:none;
+		border-color:$green;
+		color:$green;
+		i{
+			border-color:$green;
+		}
+	}
+	&.gradBg{
+		color:$lgray;
+		background-image: linear-gradient(-90deg, $green, $blue);
+		i{
+			border-color:$lgray;
+		}
+		&:hover{
+			background-image: linear-gradient(-45deg, $green, $blue);
+		}
+	}
+	&:hover{
+		box-shadow:0 0 20px rgba($base, .25);
+		span{
+			i{
+				right:-15px;
+			}
+		}
+	}
+}
+//  =============  END CODE FOR LINK BUTTON HERE  ==========================
+.slickSwipe{	
+	.slick-dots{
+		display:flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding-top:15px;
+		padding-bottom:15px;
+		li{
+			display:inline-block;
+			height:8px;
+			width:8px;
+			overflow:hidden;
+			text-indent:-9999px;
+			margin:0 4px;
+			button{
+				height:100%;
+				width:100%;
+				display:block;
+				border-radius:50%;
+				background-color:$silver;
+			}
+			&.slick-active{
+				button{
+					background-color:$slate;
+				}
+			}
+		}
+	}
+}
+.colItems{
+	.slick-slide{
+		margin-right:10px;
+		&:last-child{
+			margin-right:0;
+		}
+	}
+}
+
+.hr2colWhite{
+	background-color:$white;
+	border-radius:4px;
+	overflow:hidden;
+}
+.hrcolitem{	
+	border-radius: 4px;
+	transition:all .25s ease;
+	&.lgray{
+		background-color: $lgray;
+	}
+	&.white{
+		background:$white;
+	}
+	&:hover{
+		background:$white;
+		box-shadow: 0 0 10px rgba($base, .1);
+	}
+	img{
+		border-top-left-radius:4px;
+		border-bottom-left-radius:4px;
+	}
+}
+.lrArticleCnt{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	.imgWrap{
+		width:30%;
+	}
+	.itemDetails{
+		width:65%;
+	}
+}
+  
+  
