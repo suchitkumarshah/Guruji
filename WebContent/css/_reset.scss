@@ -141,7 +141,7 @@ ol, ul{
     }
     &.col4{
     	li{
-    		flex: 1 0 calc(100% / 4);
+    		flex: 1 0 25%;
     	}
     }
 }
@@ -155,10 +155,18 @@ ol, ul{
 			border-radius:4px;
 		}
 	}
-	&.lgrayBg{
+	&.grayBox{
 		li{
 			a{
 				background-color:$lgray;
+				color:$base;
+			}
+		}
+	}
+	&.whiteBox{
+		li{
+			a{
+				background-color:$white;
 				color:$base;
 			}
 		}
@@ -187,6 +195,26 @@ ol, ul{
 			}
 		}
 	}
+}
+.flexBoxAlert{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-between;
+	li{
+		 box-sizing: border-box;
+		 padding: .2rem;
+	}
+    &.col3{
+    	li{
+    		flex: 1 0 calc(100% / 3);
+    	}
+    }
+    &.col4{
+    	li{
+    		flex: 1 0 25%;
+    	}
+    }
 }
 // =======================  END CODE FOR GRID BOX STYLE HERE  =======================  
 //  =============  START CODE FOR SECTION DEFINE HERE  ====================
@@ -245,6 +273,9 @@ article{
 }
 .greenTxt{
 	color:$green;
+}
+.orangeTxt{
+	color:$orange;
 }
 .redTxt{
 	color:$red;
@@ -309,6 +340,9 @@ h5{
  }
 .text-uppercase{
 	text-transform: uppercase;
+}
+.text-capitalize{
+	text-transform: capitalize;
 }
 .text-left{
 	text-align: left;
@@ -396,6 +430,14 @@ h5{
 			border-color:$green;
 		}
 	}
+	&.transSlate{
+		background:none;
+		border-color:$slate;
+		color:$slate;
+		i{
+			border-color:$slate;
+		}
+	}
 	&.gradBg{
 		color:$lgray;
 		background-image: linear-gradient(-90deg, $green, $blue);
@@ -463,6 +505,8 @@ h5{
 .hrcolitem{	
 	border-radius: 4px;
 	transition:all .25s ease;
+	width:100%;
+	display:block;
 	&.lgray{
 		background-color: $lgray;
 	}
@@ -484,11 +528,20 @@ h5{
 	justify-content: space-between;
 	align-items: center;
 	.imgWrap{
-		width:30%;
+		width:38%;
 	}
 	.itemDetails{
-		width:65%;
+		width:58%;
 	}
 }
-  
+.numberItemList{
+	li{
+		margin-top:20px;
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
   

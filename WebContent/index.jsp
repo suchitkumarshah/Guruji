@@ -14,7 +14,7 @@
 						<p><small>Build the career path and reach the target with superior educational stuff.</small></p>
 					</div>
 					<div class="col-xs-12">
-						<form name="getStarted">
+						<form name="getStarted" method="post">
 							<div class="row">
 								<div class="col-xs-12 voffset1">
 									<div class="mobileNumberWrap">
@@ -24,7 +24,7 @@
 												<option>+93 SL</option>
 											</select>
 										</div>
-										<input type="text" name="phone_number" maxlength="10" class="form-control numberOnly" placeholder="Mobile number" required>
+										<input type="tel" name="phone_number" maxlength="10" class="form-control numberOnly" placeholder="Mobile number" required>
 									</div>
 								</div>
 								<div class="col-xs-12 voffset1">
@@ -139,14 +139,19 @@
 				<p class="bold">Start preparing for your next text!</p>
 			</div>
 			<div class="col-xs-12 voffset3 text-center">
-				<ul class="flexBox listBox lgrayBg col3 catList">
-					<li><a href="#">Banking<span>258 courses</span></a></li>
+				<ul class="flexBox listBox grayBox col3 catList">
+					<li><a href="#">Banking<span>368 courses</span></a></li>
 					<li><a href="#">SSC<span>258 courses</span></a></li>
-					<li><a href="#">IIT-JEE<span>258 courses</span></a></li>
-					<li><a href="#">Gate<span>258 courses</span></a></li>
-					<li><a href="#">Medical<span>258 courses</span></a></li>
-					<li><a href="#">Law<span>258 courses</span></a></li>
+					<li><a href="#">IIT-JEE<span>349 courses</span></a></li>
+					<li><a href="#">Gate<span>1256 courses</span></a></li>
+					<li><a href="#">Medical<span>2598 courses</span></a></li>
+					<li><a href="#">Law<span>981 courses</span></a></li>
 				</ul>
+			</div>
+			<div class="col-xs-12 voffset4 text-center">
+				<div class="btnsWrap">
+					<a href="#" class="btnLink whiteBg green"><span>Discover all courses<i></i></span></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -167,6 +172,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -177,6 +184,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -187,6 +196,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -216,6 +227,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 					</div>
@@ -226,6 +239,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 					</div>
@@ -236,6 +251,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 					</div>
@@ -246,6 +263,8 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h6><small>25 lessons, 8 Quizzes, 50 Tests</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>25,500</h5>
 							</div>
 						</a>
 					</div>
@@ -344,6 +363,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -356,6 +376,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -368,6 +389,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -380,6 +402,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -392,6 +415,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -404,6 +428,7 @@
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
 								<h4 class="bold">Reasoning Special Boost UP Session</h4>
 								<h6 class="slateTxt"><small>By MK Kishore</small> | <small class="greenTxt">Banking</small></h6>
+								<h5 class="greenTxt bold"><i class="currencySymbool inr"></i>1,500</h5>
 							</div>
 						</a>
 				   </div>
@@ -517,7 +542,7 @@
 				<p class="bold greenTxt">Get a FREE counselling </p>
 			</div>
 		</div>
-		<form>
+		<form name="requestcallback" method="post">
 			<div class="row">
 				<div class="col-xs-12 col-md-4 voffset3">
 					<input type="text" name="full_name" class="form-control" placeholder="Full name">
@@ -530,7 +555,7 @@
 								<option>+93 SL</option>
 							</select>
 						</div>
-						<input type="text" name="phone_number" maxlength="10" class="form-control numberOnly" placeholder="Mobile number" required>
+						<input type="tel" name="phone_number" maxlength="10" class="form-control numberOnly" placeholder="Mobile number" required>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4 voffset3">

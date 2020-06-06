@@ -12,7 +12,7 @@ body {
 	font-size:13.88px;
 	color: $base;
 	font-family:$font;
-	padding-top:66px;
+	padding-top:60px;
 }
 
 // =======================  END CODE FOR COMMON STYLE HERE  =========================
@@ -59,7 +59,7 @@ header{
 	}	
 	nav{
 		li{
-			margin-right:20px;
+			margin-right:40px;
 			&:last-child{
 				margin-right:0;
 			}
@@ -196,10 +196,45 @@ header{
 	.itemDetails{
 		padding:15px;
 		display:block;
+		&.nolspace{
+			padding:5px 20px 40px 0;
+		}
 	}
 }
 
 // =======================  END CODE FOR HOME PAGE STYLE HERE  ======================
+// =======================  START CODE FOR LISTING PAGE HERE  =======================
+.pageHeading{
+	font-size: 29.88px;
+    letter-spacing: -0.033em;
+    font-weight: 800;
+    line-height: 1;
+}
+.pageSubHeading{
+	font-size: 13.88px;
+	font-weight: 700;
+	margin-top:8px;
+	line-height: 1;
+}
+.mentorListItems{
+	display:block;
+	width:100%;
+}
+.stickyMain{
+	position:relative;
+	.stickyNavTop{
+		position:sticky;
+		top:60px;
+		background:$white;
+		padding-top:15px;
+		padding-bottom: 15px;
+		z-index:11;
+	}
+	.sntCntWrap{
+		
+	}
+}
+// =======================  END CODE FOR LISTING PAGE HERE  =========================
 // =======================  START CODE FOR FOOTER STYLE HERE  =======================
 footer{
 	padding-top:60px;

@@ -238,7 +238,7 @@
 
 @media only screen and (min-width:48em) {
 	.container {
-		width: 46rem
+		width: 47rem
 	}
 	.col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2,
 		.col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
@@ -578,7 +578,7 @@
 
 @media only screen and (min-width:75em) {
 	.container {
-		width: 71rem
+		width: 74rem
 	}
 	.col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2,
 		.col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
@@ -743,5 +743,15 @@
 		-ms-flex-order: 1;
 		-webkit-box-ordinal-group: 2;
 		order: 1
+	}
+}
+@media only screen and (min-width:80em) {
+	.container {
+		width: 74rem
+	}
+}
+@media only screen and (min-width:90em) {
+	.container {
+		width: 84rem
 	}
 }

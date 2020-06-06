@@ -1,5 +1,30 @@
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	.headerGroup{	
+		nav{
+			li{
+				margin-right:30px;
+			}
+		}		
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.headerGroup{	
+		nav{
+			li{
+				margin-right:20px;				
+			}
+		}		
+	}
+}
 @media only screen and (max-width : 768px) {
 //  ====================  start code  for header style here  =================
+	.flexBoxAlert{
+		&.col3, &.col4{
+			li{
+				flex: 1 0 50%;
+			}
+		}
+	}
 	.headerGroup{
 		.hamburgerNavLink{
 			display:block;
@@ -85,7 +110,14 @@
 	section{
 		padding-top:30px;
 		padding-bottom:30px;
-	}	
+	}
+	.flexBoxAlert{
+		&.col3, &.col4{
+			li{
+				flex: 1 0 100%;
+			}
+		}
+	}
 //  ====================  start code  for header style here  =================
 	.headerGroup{
 		.hamburgerNavLink{
@@ -169,4 +201,24 @@
 		}
 	}
 //  ====================  end code for typography style here  ===================
+}
+@media screen and (max-width: 370px) {
+	.headerGroup{
+		.hamburgerNavLink{
+			top:0;
+		}
+		.brand-logo{
+			width:90px;
+			height:36px;
+			position:relative;
+			left:-36px;		
+		}
+		.siteMenuLink{
+			ul{
+				li{
+					width:calc(100% / 2);
+				}
+			}
+		}
+	}
 }
