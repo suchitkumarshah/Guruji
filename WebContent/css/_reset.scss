@@ -224,6 +224,12 @@ section{
 	&.noTopGap{
 		padding-top:0;
 	}
+	&.topQtr{
+		padding-top:15px;
+	}	
+	&.tophalf{
+		padding-top:30px;
+	}
 }
 .btmCurveShape{
 	width:100%;
@@ -366,6 +372,9 @@ h5{
 		}
 		
 	}
+}
+.strickOut{
+	text-decoration: line-through;
 }
 //  =============  START CODE FOR TYPOGRAPHY HERE  =========================
 //  =============  START CODE FOR LINK BUTTON HERE  ========================

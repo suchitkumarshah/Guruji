@@ -235,6 +235,55 @@ header{
 	}
 }
 // =======================  END CODE FOR LISTING PAGE HERE  =========================
+// =======================  START CODE FOR COURSE DETAILS PAGE HERE  ================
+.breadcrumb{
+	li{
+		display:inline-block;
+		margin-right:10px;
+		&:last-child{
+			margin-right:0;
+		}
+		a{
+			font-weight:600;
+			font-size:12.22px;
+			display:block;
+			padding:8px 0;
+			color:$green;
+		}
+	}
+}
+.courseTopIntro{
+	padding:0 20px 30px 20px;
+}
+.courseBuyWrap{
+	border:1px solid $silver;
+	padding:10px 20px 20px 20px;
+	background:$white;
+	box-shadow:0 0 10px rgba($base, .1);
+}
+.scrollSpyTabNav{
+	li{
+		margin-right:15px;
+		&:last-child{
+			margin-top:0;
+		}
+		a{
+			color:$base;
+			font-size:14.22px;
+			font-weight:600;
+			display:inline-block;
+			padding-top:15px;
+			padding-bottom:15px;
+			&.active{
+				color:$green;
+			}
+		}
+	}
+}
+.scrollCntWrap{
+	height:500px;
+}
+// =======================  END CODE FOR COURSE DETAILS PAGE HERE  ==================
 // =======================  START CODE FOR FOOTER STYLE HERE  =======================
 footer{
 	padding-top:60px;

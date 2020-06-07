@@ -115,4 +115,25 @@ loop( delay );
       });
 	}
 //======  END CODE FOR SLICK SLIDE HERE  ======================================
+//======  START CODE FOR SCROLL SPY HERE  =====================================
+	$('.scrollSpyLink').click(function() {
+	  $('html, body').animate({
+	    scrollTop: $($(this).attr('href'))
+	      .offset().top
+	  }, 700);
+	  return false;
+	});
+
+	$(window).scroll(function() {
+	  var x = ($(".scrollSpyTabNav").offset().top) + 100;
+	  $(".scrollCntWrap").each(function(index) {
+	    var z = $(this).attr("id");
+	    if (x > $(this).offset().top && x <= ($(this).offset().top + $(this).height())+200) {
+	      $('a.' + z).addClass('active');
+	    } else {
+	      $('a.' + z).removeClass('active');
+	    }
+	  })
+	})
+//======  END CODE FOR SCROLL SPY HERE  =======================================
 });
