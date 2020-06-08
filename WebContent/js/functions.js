@@ -118,17 +118,15 @@ loop( delay );
 //======  START CODE FOR SCROLL SPY HERE  =====================================
 	$('.scrollSpyLink').click(function() {
 	  $('html, body').animate({
-	    scrollTop: $($(this).attr('href'))
-	      .offset().top
-	  }, 700);
+	    scrollTop: $($(this).attr('href')).offset().top - 140}, 700);
 	  return false;
 	});
 
 	$(window).scroll(function() {
-	  var x = ($(".scrollSpyTabNav").offset().top) + 100;
+	  var x = ($(".scrollSpyTabNav").offset().top) + 140;
 	  $(".scrollCntWrap").each(function(index) {
 	    var z = $(this).attr("id");
-	    if (x > $(this).offset().top && x <= ($(this).offset().top + $(this).height())+200) {
+	    if (x > $(this).offset().top && x <= ($(this).offset().top + $(this).height())+160) {
 	      $('a.' + z).addClass('active');
 	    } else {
 	      $('a.' + z).removeClass('active');
@@ -136,4 +134,7 @@ loop( delay );
 	  })
 	})
 //======  END CODE FOR SCROLL SPY HERE  =======================================
+$('.showHideLink').on('click', function(){
+	$('.showHideContent').slideToggle();
+});
 });

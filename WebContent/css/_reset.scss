@@ -381,6 +381,9 @@ h5{
 .btnsWrap{
 	.btnLink{
 		margin-right:10px;
+		&:last-child{
+			margin-right:0;
+		}
 	}
 }
 .btnLink{
@@ -394,10 +397,10 @@ h5{
 	position:relative;
 	overflow:hidden;
 	display:inline-block;
-	min-width:260px;
-	max-width:300px;
+	min-width:180px;
+	max-width:290px;
 	text-align:center;
-	border:1px solid transparent;
+	border:1px solid transparent;	
 	span{
 		position: relative;
 		padding-right:10px;
@@ -462,6 +465,113 @@ h5{
 		span{
 			i{
 				right:-15px;
+			}
+		}
+	}
+}
+.smallBtnLink{
+	font-size:12.22px;
+	display:inline-block;
+	padding:8px 0;
+	height: auto;
+	line-height: 1.25;
+	font-weight: 600;
+}
+.checkMark{
+	li{
+		position:relative;
+		padding-left:22px;
+		&:before{
+			content: '\2713';
+		    font-size: 10.22px;
+		    font-weight: 600;
+		    color: #fff;
+		    display: inline-block;
+		    height: 14px;
+		    width: 14px;
+		    border-radius: 50%;
+		    top: 3px;
+		    text-align: center;
+		}
+	}
+	&.green{
+		li{
+			&:before{
+				background:$green;
+			}
+		}
+	}
+}
+.flexboxList{
+	display: flex;
+	box-sizing: border-box;
+  	flex-wrap: wrap;
+  	li{
+  		display: flex;
+		padding: 0.25em;
+		width: 100%;
+		.listCnt{
+			display: flex;
+			flex-direction: column;
+			padding: 2em;
+			width: 100%;
+			p{
+				flex: 1 0 auto;
+			}
+		}
+  	}
+  	&.white{
+  		li{
+  			.listCnt{
+  				background:$white;
+  			}
+  		}
+  	}
+}
+.contentPara{
+	p{
+		margin-top:10px;
+		margin-bottom:30px;
+		line-height:1.5;
+		letter-spacing:0.022em;
+		&:last-child{
+			margin-bottom:0;
+		}
+	}
+}
+.coursePlanTable{
+	counter-reset: courseCouter;
+	> li{
+		margin:0;
+		padding:15px 15px 15px 45px;
+		position:relative;
+		font-weight:600;
+		font-size:14.22px;
+		&:before{
+			left:0;
+			width:45px;
+			counter-increment: courseCouter;
+  			content: "Ch " counter(courseCouter) ": ";
+		}
+		> ol{
+			counter-reset: chapterCouter;
+			> li{
+				margin-left:15px;
+				position:relative;
+				font-weight:500;
+				font-size:13.88px;
+				&:before{
+					left:-10px;
+					width:30px;
+					counter-increment: chapterCouter;
+  					content: counter(chapterCouter);
+				}
+				ul{
+					display:flex;
+					flex-wrap: wrap;
+					flex-direction: row;
+					justify-content: space-between;
+				}
 			}
 		}
 	}
@@ -550,6 +660,14 @@ h5{
 		&:last-child{
 			margin-bottom: 0;
 		}
+	}
+}
+.showHideLink{
+	
+}
+.showHideContent{
+	&.hideMe{
+		display:none;
 	}
 }
 

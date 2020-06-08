@@ -1,3 +1,18 @@
+@media all and (min-width: 40em) {
+  .flexboxList{
+  	li{
+  		width: 50%;
+  	}
+  }
+}
+@media all and (min-width: 60em) {
+  .flexboxList{
+  	li{
+  		width: calc(100% / 4);
+  	}
+  }
+}
+
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
 	.headerGroup{	
 		nav{
@@ -207,8 +222,23 @@
 	}
 
 //  ====================  end code for typography style here  ===================
+	.btnsWrap{
+		.btnLink{
+			margin-right:8px;
+			&:last-child{
+				margin-right:0;
+			}
+		}
+	}
+	.btnLink{
+		font-size:14.44px;
+		height:40px;
+		line-height:40px;
+		min-width:148px;
+		max-width:290px;		
+	}
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
 	.headerGroup{
 		.hamburgerNavLink{
 			top:0;
@@ -225,6 +255,15 @@
 					width:calc(100% / 2);
 				}
 			}
+		}
+	}
+	.courseBuyWrap{
+		padding:20px 5px;
+	}
+	.btnsWrap{
+		.btnLink{
+			margin-right:4px;
+			min-width: 139px;
 		}
 	}
 }
