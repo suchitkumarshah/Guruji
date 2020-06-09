@@ -298,6 +298,56 @@ header{
 		}
 	}
 }
+.faqsListing{
+	> li{
+		margin-bottom:30px;
+		&:last-child{
+			margin-bottom:0px;
+		}
+	}
+	.queHead{
+		font-weight: 600;
+		font-size: 14.88px;
+	}
+	.answerCntWrap{
+		p, ul, li{
+			font-size: 12.22px;
+		}
+		a{
+			font-weight: 600;
+			text-decoration: underline;
+			color:$black;
+		}
+		li{
+			margin: auto;
+			margin-left:15px;
+			padding: auto;
+			list-style: disc;
+		}
+	}
+}
+.ratingsBars{
+	width:100%;
+	max-width:400px;
+	h6{
+		margin-bottom:0;
+		line-height: 1.2;
+	}li{
+		margin-bottom: 8px;
+	}
+	color:$slate;
+}
+.courseReviewList{
+	li{
+		margin-bottom:30px;
+		border-bottom:1px dashed rgba($base, .15);
+		padding-bottom:10px;
+		padding-top:10px;
+		&:last-child{
+			margin-bottom:0;
+		}
+	}
+}
 // =======================  END CODE FOR COURSE DETAILS PAGE HERE  ==================
 // =======================  START CODE FOR FOOTER STYLE HERE  =======================
 footer{

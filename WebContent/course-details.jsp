@@ -34,9 +34,9 @@
 										<h6 class="slateTxt"><small>Choose start date</small></h6>
 										<div class="custmSelect noStyle">
 											<select name="mentorList">
-												<option value="">30 Jul, 2020</option>
-												<option value="">1 Aug, 2020</option>
-												<option value="">20 Aug, 2020</option>
+												<option value="30jul2020">30 Jul, 2020</option>
+												<option value="1aug2020">1 Aug, 2020</option>
+												<option value="20aug2020">20 Aug, 2020</option>
 											</select>
 										</div>
 									</div>
@@ -130,7 +130,7 @@
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3 voffset3">
-							<h6 class="slateTxt"><small>Star with friends</small></h6>
+							<h6 class="slateTxt"><small>Share with friends</small></h6>
 							<form name="courseShareFriends" class="smallFormDisp" method="post">
 								<div class="row center-md">
 									<div class="col-xs-12">
@@ -237,89 +237,150 @@
 							<div class="col-xs-12 col-md-10 col-lg-8 voffset3">
 								<h6 class="greenTxt">Full plan details</h6>
 								<ol class="coursePlanTable">
-									<li>
+									<li class="active">
 										<span>Basic Mathematics</span>
 										<ol>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Trigonometry</li>
+													<li>45 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Calculus -I - Differentiation</li>
+													<li>25 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Graphs and Algebra</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 										</ol>
 									</li>
 									<li>
-										<span>Basic Mathematics</span>
+										<span>Units and Measurement</span>
 										<ol>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Understanding SI Units</li>
+													<li>45 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Dimensional Analysis</li>
+													<li>25 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Measurement of Length - Vernier Callipers</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Measurement of Length - Screw Gauge</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>JEE Main Pattern Questions Exercise-I</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 										</ol>
 									</li>
 									<li>
-										<span>Basic Mathematics</span>
+										<span>Motion in a Plane</span>
 										<ol>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Motion in Two Dimension</li>
+													<li>45 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Projectile Motion</li>
+													<li>25 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 											<li>
 												<ul>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
-													<li>dd</li>
+													<li>Projectile Motion Inclined Plane</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+										</ol>
+										<ol>
+											<li>
+												<ul>
+													<li>Trigonometry</li>
+													<li>45 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Calculus -I - Differentiation</li>
+													<li>25 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Graphs and Algebra</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+										</ol>
+									</li>
+									<li>
+										<span>System of Particles and Rotational Motion</span>
+										<ol>
+											<li>
+												<ul>
+													<li>Centre of Mass-I</li>
+													<li>45 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Conservation of Linear Momentum</li>
+													<li>25 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Work-Energy Theorm Relative to C.M.</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
+												</ul>
+											</li>
+											<li>
+												<ul>
+													<li>Angular Momentum of a particle</li>
+													<li>30 mins</li>
+													<li><button class="textLinkBtn" type="button">Preview</button></li>
 												</ul>
 											</li>
 										</ol>
@@ -688,6 +749,258 @@
 						</a>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="slateBg">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3 class="pageHeading">Testimonials for this course</h3>
+				<h6 class="greenTxt">JEE Main 2021 Crash Course</h6>
+			</div>
+			<div class="col-xs-12 voffset2">
+				<ul class="flexboxList white col4">
+					<li>
+						<div class="listCnt">
+							<h6 class="bold">Ravi verma</h6>
+							<h6><small>GRADE IIT-Jee | MATHEMATICS</small></h6>
+							<p class="voffset3">I wish Raman sir was taught me, I like the way, he let us discover a logic behind a problem. Math is so much fun now!</p>
+						</div>
+					</li>
+					<li>
+						<div class="listCnt">
+							<h5 class="bold">Amrita Nanci</h5>
+							<h6><small>GRADE IIT-Jee | physics</small></h6>
+							<p class="voffset3">Sunita Mam explains concepts so well with real life examples. I feel so confident now in the subject.</p>
+						</div>
+					</li>
+					<li>
+						<div class="listCnt">
+							<h5 class="bold">Harikesh Mehta</h5>
+							<h6><small>GRADE IIT-Jee | physics</small></h6>
+							<p class="voffset3">Rakesh sir is very nice and makes sure you understand the concept really well.</p>
+						</div>
+					</li>
+					<li>
+						<div class="listCnt">
+							<h6 class="bold">Ravi verma</h6>
+							<h6><small>GRADE IIT-Jee | MATHEMATICS</small></h6>
+							<p class="voffset3">I wish Raman sir was taught me, I like the way, he let us discover a logic behind a problem. Math is so much fun now!</p>
+						</div>
+					</li>
+					<li>
+						<div class="listCnt">
+							<h5 class="bold">Amrita Nanci</h5>
+							<h6><small>GRADE IIT-Jee | physics</small></h6>
+							<p class="voffset3">Sunita Mam explains concepts so well with real life examples. I feel so confident now in the subject.</p>
+						</div>
+					</li>
+					<li>
+						<div class="listCnt">
+							<h5 class="bold">Harikesh Mehta</h5>
+							<h6><small>GRADE IIT-Jee | physics</small></h6>
+							<p class="voffset3">Rakesh sir is very nice and makes sure you understand the concept really well.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="whiteBg" id="faqsDisplayCnt">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3 class="pageHeading">FAQs for this course</h3>
+				<h6 class="greenTxt">JEE Main 2021 Crash Course</h6>
+			</div>
+			<div class="col-xs-12 col-md-10 col-lg-8 voffset2">
+				<ul class="faqsListing">
+					<li>
+						<div class="queHead">How do I register?</div>
+						<div class="answerCntWrap">
+							<p>Click on <a href="#">Sign Up</a> button on the top-right corner of the page and login using your facebook or google account. Or better, create your own NeoStencil account! A confirmation message “Check Your Email To Activate Your Account!” will flash on your screen. Check your inbox and click on the link in the mail. Done? Welcome aboard!</p>
+						</div>
+					</li>
+					<li>
+						<div class="queHead">What are the payments options available? Also tell me about EMI and Bank Deposits.</div>
+						<div class="answerCntWrap">
+							<ul>
+								<li>There are payment options available to you as below?</li>
+								<li>Credit/ Debit Card</li>
+								<li>Net Banking</li>
+								<li>Cash/ Cheque deposit in Bank</li>
+								<li>Wallet Payment.</li>
+								<li>Cash Cards</li>
+								<li>Mobile Payment</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="queHead">Can I use different Billing and Shipping Address?</div>
+						<div class="answerCntWrap">
+							<p>Yes, you can use your any Billing Address and provide different Shipping Address where the product is to be delivered.</p>
+						</div>
+					</li>
+					<li>
+						<div class="queHead">What is Free Trial?</div>
+						<div class="answerCntWrap">
+							<p>Free Trial is like a Demo Lecture available in Courses. It is provided to students to check the Lecture Quality, Teaching Style of Faculty etc. so that students will be satisfied after they purchase the course.</p>
+						</div>
+					</li>
+					<li>
+						<div class="queHead">Is there any compulsion to purchase after using Free Trial?</div>
+						<div class="answerCntWrap">
+							<p>No, there is no compulsion, you can use Free Trial without any purchase condition.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-md-10 col-lg-8 voffset2">
+				<div class="btnsWrap">
+					<a href="#" class="btnLink transGreen"><span>See full list of FAQs<i></i></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="" id="reviewsDisplayCnt">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3 class="pageHeading">User Reviews</h3>
+				<h6 class="greenTxt">4.8 out of 5 stars | 72 users reviews</h6>
+			</div>
+			<div class="col-xs-12 voffset2">
+				<ul class="ratingsBars">
+					<li>
+						<h6>5 star : 12</h6>
+						<progress max="100" value="80"></progress>
+					</li>
+					<li>
+						<h6>5 star : 38</h6>
+						<progress max="100" value="20"></progress>
+					</li>
+					<li>
+						<h6>5 star : 8</h6>
+						<progress max="100" value="10"></progress>
+					</li>
+					<li>
+						<h6>5 star : 14</h6>
+						<progress max="100" value="40"></progress>
+					</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-6 voffset2">
+				<h6 class="bold">How was your experience with us?</h6>
+				<form method="post" name="courseRatings">
+				    <div class="row">
+				    	<div class="col-xs-12">
+				    		<div class="rating-box">
+								  <div class="rating-container">
+									  <input type="radio" name="rating" value="5" id="star-5"> <label for="star-5">&#9733;</label>
+									  <input type="radio" name="rating" value="4" id="star-4"> <label for="star-4">&#9733;</label>
+									  <input type="radio" name="rating" value="3" id="star-3"> <label for="star-3">&#9733;</label>
+									  <input type="radio" name="rating" value="2" id="star-2"> <label for="star-2">&#9733;</label>
+									  <input type="radio" name="rating" value="1" id="star-1"> <label for="star-1">&#9733;</label>
+								</div>
+							</div>
+				    	</div>
+				    	<div class="col-xs-12">
+				    		<textarea name="review_text" placeholder="write here your experience" required></textarea>
+				    	</div>
+				    	<div class="col-xs-12 col-md-3">
+				    		<button type="button" class="fullWidth green"><span>Submit<i class="rightArrow white"></i></span></button>
+				    	</div>
+				    </div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-8 voffset4">
+				<ul class="courseReviewList">
+					<li>
+						<article>
+							<h6>Suchitra <small class="slateTxt">5 mins ago</small></h6>
+							<h6></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+							</div>
+							<p>Thanks guruji for providing such an awesome study material.</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<h6>Rakesh Mishra <small class="slateTxt">15 mins ago</small></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+							</div>
+							<p>After watching this video my doubt related to this topic is very clear ... thanks,</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<h6>Suchitra <small class="slateTxt">2 days ago</small></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+							</div>
+							<p>Thanks guruji for providing such an awesome study material.</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<h6>Suchitra <small class="slateTxt">8 days ago</small></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+							</div>
+							<p>Thanks guruji for providing such an awesome study material.</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<h6>Suchitra <small class="slateTxt">12 days ago</small></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="slateTxt">&#9733;</span>
+							</div>
+							<p>Thanks guruji for providing such an awesome study material.</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<h6>Suchitra <small class="slateTxt">15 days ago</small></h6>
+							<div class="starsSymboold">
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+								<span class="orangeTxt">&#9733;</span>
+							</div>
+							<p>Thanks guruji for providing such an awesome study material.</p>
+						</article>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>

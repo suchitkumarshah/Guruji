@@ -134,7 +134,11 @@ loop( delay );
 	  })
 	})
 //======  END CODE FOR SCROLL SPY HERE  =======================================
-$('.showHideLink').on('click', function(){
-	$('.showHideContent').slideToggle();
-});
+	$('.showHideLink').on('click', function(){
+		$('.showHideContent').slideToggle();
+	});
+	$('.coursePlanTable > li > span').on('click', function(){
+		$(this).parent('li').toggleClass('active');
+		$(this).next('ol').slideToggle();
+	})
 });

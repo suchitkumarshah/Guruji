@@ -400,6 +400,7 @@ h5{
 	min-width:180px;
 	max-width:290px;
 	text-align:center;
+	padding:0 20px;
 	border:1px solid transparent;	
 	span{
 		position: relative;
@@ -477,6 +478,14 @@ h5{
 	line-height: 1.25;
 	font-weight: 600;
 }
+.textLinkBtn{
+	font-size:12.22px;
+	display:inline-block;
+	padding:0;
+	height: auto;
+	line-height: 1;
+	font-weight: 500;
+}
 .checkMark{
 	li{
 		position:relative;
@@ -543,26 +552,60 @@ h5{
 	counter-reset: courseCouter;
 	> li{
 		margin:0;
-		padding:15px 15px 15px 45px;
+		padding:8px 15px 8px 45px;
 		position:relative;
 		font-weight:600;
 		font-size:14.22px;
+		border-bottom:1px dashed rgba($slate, .5);
 		&:before{
 			left:0;
+			top:17px;
 			width:45px;
 			counter-increment: courseCouter;
   			content: "Ch " counter(courseCouter) ": ";
 		}
+		span{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			cursor: pointer;
+			display: block;
+			position: relative;
+			&:after{
+				border: solid $gray;
+				border-width: 0 2px 2px 0;
+				display: inline-block;
+				padding: 4px;
+				transform: rotate(45deg);
+  				-webkit-transform: rotate(45deg);
+  				left:auto;
+  				right:-10px;
+  				top:13px;
+			}
+		}
+		&.active{
+			span{
+				&:after{
+					top:19px;
+					transform: rotate(-135deg);
+  					-webkit-transform: rotate(-135deg);
+				}
+			}
+		}
 		> ol{
-			counter-reset: chapterCouter;
+			display:none;
+			counter-reset: chapterCouter;	
+			position:relative;
+			left:-45px;
+			width:calc(100% + 55px);		
 			> li{
-				margin-left:15px;
+				margin-left:0;
 				position:relative;
 				font-weight:500;
 				font-size:13.88px;
 				&:before{
-					left:-10px;
+					left:10px;
 					width:30px;
+					top:8px;
 					counter-increment: chapterCouter;
   					content: counter(chapterCouter);
 				}
@@ -571,7 +614,24 @@ h5{
 					flex-wrap: wrap;
 					flex-direction: row;
 					justify-content: space-between;
+					padding: 8px 15px 8px 35px;
+					background:rgba($slate, .1);
+					margin-bottom:2px;
+					&:hover{
+						background:$white;
+					}
+					li{
+						width:15%;
+						&:first-child{
+							width:70%;
+						}
+					}
 				}
+			}
+		}
+		&:first-child{
+			ol{
+				display:block;
 			}
 		}
 	}

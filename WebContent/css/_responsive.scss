@@ -237,6 +237,23 @@
 		min-width:148px;
 		max-width:290px;		
 	}
+	
+	.coursePlanTable{
+		> li{
+			> ol{		
+				> li{
+					ul{
+						li{
+							width:50%;
+							&:first-child{
+								width:100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 @media screen and (max-width: 360px) {
 	.headerGroup{

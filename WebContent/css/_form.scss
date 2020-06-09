@@ -85,7 +85,7 @@ label{
 		line-height:50px;
 		cursor: pointer;
 		select{
-			background-color:transparent;
+			background-color:none;
 			padding-left:20px;
 		}
 		&:after{
@@ -265,4 +265,55 @@ button{
 	    color:$black;
 	    padding:0 15px;
 	}
+}
+progress[value]{
+	width: 100%;
+	-webkit-appearance: none;
+  	appearance: none;
+ 	&::-webkit-progress-bar {
+		background-color: $lgray;
+		border:1px solid $silver;
+		border-radius: 2px;
+		box-shadow: 0 2px 5px rgba($base, 0.1) inset;		
+	}
+	&::-webkit-progress-value{
+		background:$blue;
+	}
+}
+//================== START CODE FOR RATING STARSHERE ================================
+.rating-box {
+  display: inline-block;
+  .rating-container {
+    direction: rtl !important;
+    li{
+    	display:inline;
+    	margin-left: 4px;
+    	&:last-child{
+    		margin-left: 0;
+    	}
+    }
+    label {
+      display: inline-block;
+      color: #d4d4d4;
+      cursor: pointer;
+      font-size: 30px;
+      transition: color 0.2s;
+    }
+    input {
+      display: none;
+    }
+    label:hover, label:hover ~ label, input:checked ~ label  {
+      color: $orange;
+    }
+  }
+}
+//================== END CODE FOR RATING STARS HERE ==================================
+textarea{
+	resize:none;
+	width:100%;
+	border:1px solid rgba($base, 0.1);
+	padding: 12px 14px 14px 14px;
+	border-radius: 4px;
+	font-size: 14px;
+    font-weight: 500;
 }
