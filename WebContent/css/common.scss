@@ -349,6 +349,261 @@ header{
 	}
 }
 // =======================  END CODE FOR COURSE DETAILS PAGE HERE  ==================
+// =======================  START CODE FOR PRICING TABLE STYLE HERE  ================
+.pricing-plans {
+  padding: 0;
+  width: 100%;
+  .planSlctWrap{
+  	display:inline-block;
+  	width:90%;
+  	max-width: 140px;
+  	margin: 0 auto 15px auto;
+  	select{
+  		display:block;
+  		width:100%;
+  	}
+  }
+}
+
+.pricing-tables {
+  display: flex;
+  flex-flow: column;
+  padding-top: 1em;
+}
+
+.pricing-plan {
+  background-color: #f6f6f6;
+  border: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  display: block;
+  padding:0 0 2em 0;
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-plan:first-child, .pricing-plan:last-child {
+  background-color: #EEE;
+}
+
+.pricing-plan:first-child {
+  border-bottom: 0;
+}
+
+.pricing-plan:last-child {
+  border-top: 0;
+}
+
+.pricing-plan:nth-child(2) {
+  border-bottom: 0;
+}
+
+
+.plan-title {
+  font-size: 16.22px;
+  margin: 0;
+  padding: 2em 1em 0 1em;
+  text-transform: uppercase;
+  background: $white;
+}
+
+.plan-cost {
+  background-color: $white;
+  font-weight: 700;
+  padding:0 1em 1.5em 1em;
+  text-transform: uppercase;
+}
+
+.plan-cost span {
+  display: none;
+}
+
+.plan-price {
+  font-size: 29.88px;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.plan-type {
+  color: $slate;
+  display: inline-block;
+  width: auto;
+  font-size: 11.22px;
+}
+
+.plan-features {
+  margin: 0;
+  padding: 2em 1em 1em;
+}
+
+.plan-features li {
+  list-style-type: none;
+  border-bottom: 1px solid $silver;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.75em;
+  display: block;
+  font-size: 12.22px;
+  line-height: 1.3;
+//   &:before {
+//     content: "✔";
+//     margin-right: 7px;
+    
+//   }
+  span {
+    color: $slate;
+  }
+}
+
+.btn-plan {
+  background-color: $blue;
+  color: $lgray;
+  width:100%;
+  height:40px;
+  line-height:40px;
+  display: inline-block;
+  padding:0;
+  max-width: 200px;
+  border: 0;
+  &:disabled{
+  	background-color: $slate;
+  	color:$silver;
+  	cursor: default;
+  }
+}
+
+.cta {
+  background-color: $green;
+}
+
+.featured-plan {
+  border-top: 5px solid rgba($green, .75);
+  border-right: 0 solid transparent;
+  border-bottom: 5px solid rgba($green, .75);
+  border-left: 0 solid transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  //order: -1;
+  position: relative;
+  transition: transform 400ms ease;
+}
+
+.featured-ribbon {
+  width: 200px;
+  background: $green;
+  position: absolute;
+  top: 15px;
+  left: -60px;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  font-size: 0.65em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.featured-ribbon.sticky {
+  position: fixed;
+}
+
+.featured-ribbon.shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.featured-ribbon.top-left {
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+@media (min-width: 500px) {
+  .pricing-plans {
+    width: 100%;
+  }
+}
+
+@media (min-width: 33.75em) {
+  .pricing-plans .module-title {
+    margin-bottom: 1em;
+  }
+
+  .pricing-tables {
+    flex-flow: row wrap;
+  }
+
+  .pricing-plan {
+    flex-grow: 1;
+    width: 50%;
+  }
+
+  .pricing-plan:first-child {
+    border-right: 0;
+    border-bottom: 0;
+  }
+  
+  .featured-plan {
+    margin-top: 0.6em;
+    order: 0;
+  }
+
+  .pricing-plan:last-child {
+    border-top: 2px solid #DDD;
+    border-left: 0;
+  }
+  
+  .no-flexbox .pricing-plan {
+    width: 48%;
+  }
+}
+
+@media (min-width: 48em) {
+  .no-flexbox .pricing-plan {
+    width: 24%;
+  }
+}
+
+@media (min-width: 62em) {
+  .pricing-tables {
+    padding-top: 5px;
+  }
+
+  .pricing-plan {
+    flex-grow: 1;
+    width: 25%;
+  }
+  
+  .featured-plan {
+    margin-top: 0;
+    order: 0;
+  }
+
+  .pricing-plan:first-child, .pricing-plan:nth-child(2n) {
+    border-bottom: 1px solid #DDD;
+  }
+
+  .pricing-plan .plan-features span {
+    display: block !important;
+  }
+
+  .plan-cost {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .plan-cost span {
+    color: #BBB;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+  }
+}
+
+// =======================  END CODE FOR PRICING TABLE STYLE HERE  ==================
 // =======================  START CODE FOR FOOTER STYLE HERE  =======================
 footer{
 	padding-top:60px;

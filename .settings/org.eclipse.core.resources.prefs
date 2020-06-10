@@ -1,5 +1,7 @@
 eclipse.preferences.version=1
+encoding//WebContent/cart.jsp=UTF-8
 encoding//WebContent/course-details.jsp=UTF-8
 encoding//WebContent/css/_form.scss=UTF-8
 encoding//WebContent/css/common.scss=UTF-8
 encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/payment-options.jsp=UTF-8

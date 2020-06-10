@@ -123,15 +123,19 @@ loop( delay );
 	});
 
 	$(window).scroll(function() {
-	  var x = ($(".scrollSpyTabNav").offset().top) + 140;
-	  $(".scrollCntWrap").each(function(index) {
-	    var z = $(this).attr("id");
-	    if (x > $(this).offset().top && x <= ($(this).offset().top + $(this).height())+160) {
-	      $('a.' + z).addClass('active');
-	    } else {
-	      $('a.' + z).removeClass('active');
-	    }
-	  })
+	 
+	  let getScroll = $('.scrollCntWrap');
+	  if ($(getScroll)[0]){
+		  $(getScroll).each(function(index) {
+			  var x = ($(".scrollSpyTabNav").offset().top) + 140;
+			  var z = $(this).attr("id");
+		    if (x > $(this).offset().top && x <= ($(this).offset().top + $(this).height())+160) {
+		      $('a.' + z).addClass('active');
+		    } else {
+		      $('a.' + z).removeClass('active');
+		    }
+		  });
+	  }
 	})
 //======  END CODE FOR SCROLL SPY HERE  =======================================
 	$('.showHideLink').on('click', function(){
@@ -140,5 +144,14 @@ loop( delay );
 	$('.coursePlanTable > li > span').on('click', function(){
 		$(this).parent('li').toggleClass('active');
 		$(this).next('ol').slideToggle();
-	})
+	});
+	
+	$('.radioToggleLink').on('click', function(){
+		let data = $(this).attr('data-toggle');
+		$('.showRadioCnt').hide();
+		$('#showToggle_' + data).show();
+	});
+// =======================  START CODE FOR PRICING TABLE STYLE HERE  ==================
+
+// =======================  END CODE FOR PRICING TABLE STYLE HERE  ====================
 });

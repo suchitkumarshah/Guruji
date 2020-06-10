@@ -205,7 +205,7 @@
 										<h6 class="bold greenTxt">1,224 Lectures</h6>
 									</div>
 									<div class="col-xs-6 col-sm-3 col-md-4 voffset3">
-										<h6 class="bold">In Hindi + English Language</h6>
+										<h6 class="bold greenTxt">In Hindi + English Language</h6>
 									</div>
 								</div>
 							</div>
@@ -456,7 +456,7 @@
 						</div>
 						<div class="row voffset4">
 							<div class="col-xs-12">
-								<div class="row">
+								<div class="row voffset4">
 									<div class="col-xs-12">
 										<h4>Behind the scenes</h4>
 										<p class="bold">Who has designed this course?</p>
@@ -466,8 +466,8 @@
 									<div class="col-xs-6 col-sm-4 col-md-3 voffset2">
 										<article class="mentorListItems">
 											<a href="#">
-												<img src="img/mentor1.jpg" class="profileCircle" alt="">
-												<h5 class="bold">Vanshika Jain</h5>
+												<img src="img/mentor7.jpg" class="profileCircle" alt="">
+												<h5 class="bold">Mr. Ujjwal</h5>
 												<h6 class="bold"><small>Co-founder</small></h6>
 											</a>	
 										</article>
@@ -475,8 +475,8 @@
 									<div class="col-xs-6 col-sm-4 col-md-3 voffset2">
 										<article class="mentorListItems">
 											<a href="#">
-												<img src="img/mentor2.jpg" class="profileCircle" alt="">
-												<h5 class="bold">Vanshika Jain</h5>
+												<img src="img/mentor8.jpg" class="profileCircle" alt="">
+												<h5 class="bold">Dr. Malay Kumar</h5>
 												<h6 class="bold"><small>Head of department</small></h6>
 											</a>	
 										</article>
@@ -484,8 +484,8 @@
 									<div class="col-xs-6 col-sm-4 col-md-3 voffset2">
 										<article class="mentorListItems">
 											<a href="#">
-												<img src="img/mentor3.jpg" class="profileCircle" alt="">
-												<h5 class="bold">Vanshika Jain</h5>
+												<img src="img/mentor6.jpg" class="profileCircle" alt="">
+												<h5 class="bold">Rachit Jain</h5>
 												<h6 class="bold"><small>Exam expert of india</small></h6>
 											</a>	
 										</article>

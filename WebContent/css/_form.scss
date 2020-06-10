@@ -199,7 +199,7 @@ button{
 	  display: inline-block;
 	  cursor: pointer;
 	  position: relative;
-	  padding-left: 25px;
+	  padding:6px 6px 6px 25px;
 	  margin-right: 15px;
 	  font-size: 13.88px;
 	  font-weight:500;
@@ -210,7 +210,7 @@ button{
 	    height: 18px;
 	    margin-right: 14px;
 	    position: absolute;
-	    top: 0;
+	    top: 6px;
 	    left: 0;
 	    border: 1px solid $slate;
 	    background-color: $white;
@@ -222,16 +222,20 @@ button{
 	  display: none !important;
 	  *display: inline;
 	  &:checked + label{
+	  	&:before{
+	  		background-color:$base;
+	  		border: 1px solid transparent;
+	  	}
 	  	&:after{
 	  		content: "";
 		    display: block;
 		    position: absolute;
-		    top: 5px;
-		    left: 5px;
+		    top: 10px;
+		    left: 4px;
 		    width: 10px;
 		    height: 10px;
 		    border-radius: 50%;
-		    background: $slate;
+		    background-image: linear-gradient(-90deg, #0BB77B, #00A2C4);
 	  	}
 	  }
 	}
@@ -316,4 +320,7 @@ textarea{
 	border-radius: 4px;
 	font-size: 14px;
     font-weight: 500;
+}
+.showRadioCnt{
+	display: none;
 }
