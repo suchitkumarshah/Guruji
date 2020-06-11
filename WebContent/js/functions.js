@@ -151,6 +151,10 @@ loop( delay );
 		$('.showRadioCnt').hide();
 		$('#showToggle_' + data).show();
 	});
+	$('.questionHead').on('click', function(){
+		$(this).toggleClass('active');
+		$(this).next('.answerBox').slideToggle();
+	});
 // =======================  START CODE FOR PRICING TABLE STYLE HERE  ==================
 
 // =======================  END CODE FOR PRICING TABLE STYLE HERE  ====================

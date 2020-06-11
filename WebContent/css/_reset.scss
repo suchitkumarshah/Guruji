@@ -66,6 +66,9 @@ ol, ul{
           text-decoration: none;
       }  
   }
+.underline{
+	text-decoration: underline;
+}
   img{
       border-style:none;
   }
@@ -387,6 +390,9 @@ h5{
 }
 .strickOut{
 	text-decoration: line-through;
+}
+.bold{
+	font-weight:700;
 }
 //  =============  START CODE FOR TYPOGRAPHY HERE  =========================
 //  =============  START CODE FOR LINK BUTTON HERE  ========================
@@ -744,6 +750,67 @@ h5{
 	&.hideMe{
 		display:none;
 	}
+	&.showMe{
+		display:block;
+	}
 }
-
+hr{
+	width:100%;
+	background: transparent;
+	border-bottom:1px solid $silver;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.warnBox{
+	padding: 30px;
+	background: $white;
+	border:1px dashed;
+	&.green{
+		border-color:$green;
+	}
+}
+.faqLisitng{
+	li{
+		border-bottom:1px solid $silver;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding-bottom: 15px;
+		.questionHead{
+			color:$base;
+			font-weight: 700;
+			font-size: 16.22px;
+			display:block;
+			padding-top:6px;
+			padding-bottom:2px;
+			position: relative;
+			cursor: pointer;
+			&:after{
+				border: solid #5E5E5E;
+			    border-width: 0 2px 2px 0;
+			    display: inline-block;
+			    padding: 4px;
+			    transform: rotate(45deg);
+			    -webkit-transform: rotate(45deg);
+			    left: auto;
+			    right: 0;
+			    top: 13px;
+			}
+			&.active{
+				&:after{
+					top: 20px;
+				    transform: rotate(-135deg);
+				    -webkit-transform: rotate(-135deg);
+				}
+			}
+		}
+		.answerBox{
+			display: none;
+		}
+		&:first-child{
+			.answerBox{
+				display: block;
+			}
+		}
+	}	
+}
   

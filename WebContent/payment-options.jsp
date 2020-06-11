@@ -10,35 +10,35 @@
 				<h4 class="greenTxt bold"><i class="currencySymbool inr"></i>34,000</h4>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row voffset4">
 			<div class="col-xs-12">
 				<h6 class="bold">Choose a payment option</h6>
 				<ul>
-					<li class="voffset3">
+					<li class="voffset2">
 						<div class="cstmRadio">
 							<input type="radio" name="payment_option" value="paybycreditcard" id="paybycreditcard" data-toggle="paybycreditcard" class="radioToggleLink" checked>
 							<label for="paybycreditcard">Credit Card</label>
 						</div>
 					</li>
-					<li class="voffset3">
+					<li class="voffset2">
 						<div class="cstmRadio">
 							<input type="radio" name="payment_option" value="paybydebitcard" id="paybydebitcard" data-toggle="paybydebitcard" class="radioToggleLink">
 							<label for="paybydebitcard">Debit Card</label>
 						</div>
 					</li>
-					<li class="voffset3">
+					<li class="voffset2">
 						<div class="cstmRadio">
 							<input type="radio" name="payment_option" value="netbanking" id="paybynetbanking" data-toggle="superSaverPlan" class="radioToggleLink">
 							<label for="paybynetbanking">Net Banking</label>
 						</div>
 					</li>
-					<li class="voffset3">
+					<li class="voffset2">
 						<div class="cstmRadio">
 							<input type="radio" name="payment_option" value="upi" id="paybyupi" data-toggle="paybyupi" class="radioToggleLink">
 							<label for="paybyupi">UPI</label>
 						</div>
 					</li>
-					<li class="voffset3">
+					<li class="voffset2">
 						<div class="cstmRadio">
 							<input type="radio" name="payment_option" value="paybyemi" id="paybyemi" data-toggle="paybyemi" class="radioToggleLink">
 							<label for="paybyemi">EMI</label>
