@@ -5,7 +5,7 @@
 			<div class="col-xs-12 col-sm-5 voffset3">
 				<div class="row">
 					<div class="col-xs-12">
-						<h5 class="bold">A smarter way to crack your</h5>
+						<h5 class="bold">A smarter way to crack your next exam</h5>
 						<div class="classHlgt heroFadeTxt greenTxt">IIT-JAM</div>
 						<h6 class="bold">Online classes  |  Online test series  |  Daily test</h6>
 					</div>
@@ -13,7 +13,7 @@
 						<h5 class="bold voffset3">Get Started. It's FREE.</h5>
 						<p><small>Build the career path and reach the target with superior educational stuff.</small></p>
 					</div>
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-md-10">
 						<form name="getStarted" method="post">
 							<div class="row">
 								<div class="col-xs-12 voffset1">

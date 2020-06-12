@@ -22,7 +22,7 @@ $(document).ready(function(){
 	                pwcheckspechars: true,
 	                pwcheckallowedchars: true,
 	                minlength: 8,
-	                maxlength: 30
+	                maxlength: 20
 				},
 				confirm_password: {
 					equalTo: "#new_password"

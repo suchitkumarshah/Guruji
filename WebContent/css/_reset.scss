@@ -239,11 +239,19 @@ section{
 	&.noTopGap{
 		padding-top:0;
 	}
+	&.noGap{
+		padding-top:0;
+		padding-bottom:0;
+	}
 	&.topQtr{
 		padding-top:15px;
 	}	
 	&.tophalf{
 		padding-top:30px;
+	}
+	&.half{
+		padding-top:30px;
+		padding-bottom:30px;
 	}
 }
 .btmCurveShape{
@@ -496,6 +504,9 @@ h5{
 	height: auto;
 	line-height: 1.25;
 	font-weight: 600;
+	&.green{
+		color:$green;
+	}
 }
 .textLinkBtn{
 	font-size:12.22px;

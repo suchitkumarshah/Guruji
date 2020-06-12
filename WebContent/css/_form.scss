@@ -119,7 +119,7 @@ label{
 		color:$lgray;
 	}
 	&.fullWidth{
-		width: 100%;
+		width: 100%;		
 	}
 }
 //================== START CODE FOR BUTTONS STYLE HERE ================================
@@ -166,6 +166,7 @@ button{
 	&.fullWidth{
 		width:100%;
 		text-align:center;
+		max-width: 100%;
 	}
 	&.green{
 		background:$green;
