@@ -150,7 +150,7 @@
 			</div>
 			<div class="col-xs-12 voffset4 text-center">
 				<div class="btnsWrap">
-					<a href="#" class="btnLink whiteBg green"><span>Discover all courses<i></i></span></a>
+					<a href="category-list.jsp" class="btnLink whiteBg green"><span>Discover all courses<i></i></span></a>
 				</div>
 			</div>
 		</div>
@@ -272,7 +272,7 @@
 			</div>
 			<div class="col-xs-12 voffset4 text-center">
 				<div class="btnsWrap">
-					<a href="#" class="btnLink gradBg"><span>Discover Classes<i></i></span></a>
+					<a href="live-classes.jsp" class="btnLink gradBg"><span>Discover Classes<i></i></span></a>
 				</div>
 			</div>
 		</div>
@@ -340,8 +340,8 @@
 			</div>
 			<div class="col-xs-12 voffset4 text-center">
 				<div class="btnsWrap">
-					<a href="#" class="btnLink gradBg"><span>Discover Mentors<i></i></span></a>
-					<a href="#" class="btnLink gradBg"><span>Become a Mentor<i></i></span></a>
+					<a href="mentors.jsp" class="btnLink gradBg"><span>Discover Mentors<i></i></span></a>
+					<a href="become-a-mentor.jsp" class="btnLink gradBg"><span>Become a Mentor<i></i></span></a>
 				</div>
 			</div>
 		</div>
