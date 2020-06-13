@@ -140,12 +140,12 @@
 			</div>
 			<div class="col-xs-12 voffset3 text-center">
 				<ul class="flexBox listBox grayBox col3 catList">
-					<li><a href="#">Banking<span>368 courses</span></a></li>
-					<li><a href="#">SSC<span>258 courses</span></a></li>
-					<li><a href="#">IIT-JEE<span>349 courses</span></a></li>
-					<li><a href="#">Gate<span>1256 courses</span></a></li>
-					<li><a href="#">Medical<span>2598 courses</span></a></li>
-					<li><a href="#">Law<span>981 courses</span></a></li>
+					<li><a href="course-listing.jsp">Banking<span>368 courses</span></a></li>
+					<li><a href="course-listing.jsp">SSC<span>258 courses</span></a></li>
+					<li><a href="course-listing.jsp">IIT-JEE<span>349 courses</span></a></li>
+					<li><a href="course-listing.jsp">Gate<span>1256 courses</span></a></li>
+					<li><a href="course-listing.jsp">Medical<span>2598 courses</span></a></li>
+					<li><a href="course-listing.jsp">Law<span>981 courses</span></a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 voffset4 text-center">
@@ -166,7 +166,7 @@
 			<div class="col-xs-12 voffset2">
 				<div class="slickSwipe slickClass colItems">
 				  <div class="hrcolitem white">
-						<a href="#" class="lrArticleCnt">
+						<a href="course-details.jsp" class="lrArticleCnt">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluid" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -178,7 +178,7 @@
 						</a>
 				   </div>
 				  <div class="hrcolitem white">
-						<a href="#" class="lrArticleCnt">
+						<a href="course-details.jsp" class="lrArticleCnt">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluid" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -190,7 +190,7 @@
 						</a>
 				   </div>
 				   <div class="hrcolitem white">
-						<a href="#" class="lrArticleCnt">
+						<a href="course-details.jsp" class="lrArticleCnt">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluid" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -205,7 +205,7 @@
 			</div>
 			<div class="col-xs-12 text-center">
 				<div class="btnsWrap">
-					<a href="#" class="btnLink gradBg"><span>Discover all<i></i></span></a>
+					<a href="live-classes.jsp" class="btnLink gradBg"><span>Discover all<i></i></span></a>
 				</div>
 			</div>			
 		</div>
@@ -221,7 +221,7 @@
 			<div class="col-xs-12 voffset2">
 				<div class="slickSwipe slickClass3Col colItems">
 					<div>
-						<a href="#" class="classDispRect lgrayBg">
+						<a href="course-details.jsp" class="classDispRect lgrayBg">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluidThumb" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -233,7 +233,7 @@
 						</a>
 					</div>
 					<div>
-						<a href="#" class="classDispRect lgrayBg">
+						<a href="course-details.jsp" class="classDispRect lgrayBg">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluidThumb" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -245,7 +245,7 @@
 						</a>
 					</div>
 					<div>
-						<a href="#" class="classDispRect lgrayBg">
+						<a href="course-details.jsp" class="classDispRect lgrayBg">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluidThumb" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -257,7 +257,7 @@
 						</a>
 					</div>
 					<div class="">
-						<a href="#" class="classDispRect lgrayBg">
+						<a href="course-details.jsp" class="classDispRect lgrayBg">
 							<div class="imgWrap"><img src="img/liveclass_thumb.jpg" class="img-fluidThumb" alt=""></div>
 							<div class="itemDetails">
 								<h6 class="slateTxt"><small>03 Jun 2020, 11:00 AM</small></h6>
@@ -451,7 +451,7 @@
 			</div>
 			<div class="col-xs-12 voffset3">
 				<div class="btnsWrap">
-					<a href="#" class="btnLink transGreen"><span>Discover Mentors<i></i></span></a>
+					<a href="ask-doubt.jsp" class="btnLink transGreen"><span>Ask your doubt<i></i></span></a>
 				</div>
 			</div>
 			<div class="col-xs-12">
@@ -522,7 +522,7 @@
 	<div class="row">
 		<div class="col-xs-12 text-center voffset4">
 			<div class="btnsWrap">
-				<a href="#" class="btnLink whiteBg green"><span>See more experiences<i></i></span></a>
+				<a href="testimonials.jsp" class="btnLink whiteBg green"><span>See more experiences<i></i></span></a>
 			</div>	
 		</div>
 	</div>

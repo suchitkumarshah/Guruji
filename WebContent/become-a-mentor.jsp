@@ -7,7 +7,7 @@
 					<div class="row center-xs">
 						<div class="col-xs-11 voffset5">
 							<h1 class="pageHeading">Teach online anytime anywhere</h1>
-							<h6 class="pageSubHeading">Ready to join thousands of other teachers?</h6>
+							<h6 class="voffset1">Ready to join thousands of other teachers?</h6>
 						</div>
 						<div class="col-xs-11 col-sm-10 col-md-8">
 							<form method="POST" name="signupForm" id="signupForm">

@@ -180,6 +180,25 @@ button{
 		}
 	}
 }
+.passwordWrap{
+	position: relative;
+	.passwordSwitcher{
+		position:absolute;
+		height: 40px;
+		width:40px;
+		right:5px;
+		top:10%;
+		line-height: 40px;
+		font-size:11.22px;
+		text-transform: uppercase;
+		color:$gray;
+		text-indent: -9999px;
+		background: url('../img/icon-eye.svg') no-repeat center / 50%;
+		&.active{
+			background: url('../img/icon-eye-slash.svg') no-repeat center / 50%;
+		}
+	}
+}
 //================== END CODE FOR BUTTONS STYLE HERE ==================================
 //================== START CODE FOR RADIO LIST HERE ===================================
 .radioList{
@@ -323,5 +342,8 @@ textarea{
     font-weight: 500;
 }
 .showRadioCnt{
+	display: none;
+}
+.formActionMessage{
 	display: none;
 }
