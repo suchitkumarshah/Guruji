@@ -99,16 +99,11 @@ $(document).ready(function(){
 	    }, "The password must contain at least one number.");
 			// end code for password match expression here
 	});
-	 $("form[data-form-validate='true']").each(function() {
-        $(this).validate({
-            errorPlacement: function(error, element) {          
-                if (element.is(":radio")) {
-                    error.appendTo(element.parents('.form-group'));
-                } else {
-                    error.insertAfter(element);
-                }
-            }
-        });
+	
+	 $(".submitFormBtn").click(function(){  // capture the click
+        var getForm = $(this).closest("form");
+        console.log(getForm);
+        $(getForm).valid();
     });
 
 	$('.passwordChange').on('click', function(){

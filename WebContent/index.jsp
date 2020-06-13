@@ -28,7 +28,7 @@
 									</div>
 								</div>
 								<div class="col-xs-12 voffset1">
-									<button type="submit" class="fullWidth transBorderGreen"><span>Continue<i class="rightArrow green"></i></span></button>
+									<button type="button" class="fullWidth transBorderGreen submitFormBtn"><span>Continue<i class="rightArrow green"></i></span></button>
 								</div>
 							</div>
 						</form>
@@ -559,7 +559,7 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4 voffset3">
-					<button type="submit" class="fullWidth transBorderGreen"><span>Request a call back<i class="rightArrow green"></i></span></button>
+					<button type="button" class="fullWidth transBorderGreen submitFormBtn"><span>Request a call back<i class="rightArrow green"></i></span></button>
 				</div>
 			</div>
 		</form>		
