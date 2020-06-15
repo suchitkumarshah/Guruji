@@ -196,24 +196,6 @@
 							Definitely. We at Guruji are extremely sensitive about the wholesome experience of learning and teaching. Hence, our Teacher Care and Tech teams are always available for immediate resolutions to any issues you face.
 						</div>
 					</li>
-					<li>
-						<div class="questionHead">What is the frequency of payouts for Teachers?</div>
-						<div class="answerBox">
-							Payouts are done on monthly basis. All payouts are released before 5th of every month to our Teachers.
-						</div>
-					</li>
-					<li>
-						<div class="questionHead">Do I need to Pay anything to enroll as a Teacher?</div>
-						<div class="answerBox">
-							No. There is no registration fee to be paid to Vedantu for enrolling and getting listed as a Teacher.
-						</div>
-					</li>
-					<li>
-						<div class="questionHead">How can I create Content for handling my Sessions?</div>
-						<div class="answerBox">
-							We will provide you with an LMS (learning management system) where you can create, curate, share and evaluate content based on your students requirements, understanding and progression pace.
-						</div>
-					</li>
 				</ul>
 			</div>
 			<div class="col-xs-12 voffset3">

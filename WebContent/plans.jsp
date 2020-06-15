@@ -5,7 +5,7 @@
 			<div class="col-xs-12">
 				<h1 class="pageHeading">Risk-free, affordable subscription plans!</h1>
 				<h6 class="pageSubHeading greenTxt">No transaction fees, 30 days satisfaction guarantee.</h6>
-				<h6>pricing starts from <i class="currencySymbool inr"></i>1,500 (billed annually).<br>All plans in INR (inclusive of all taxes).</h6>
+				<h6>pricing starts from <i class="currencySymbool inr"></i>1,500 (billed annually). All plans in INR (inclusive of all taxes).</h6>
 			</div>
 		</div>
 		<div class="row">
@@ -127,6 +127,10 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-xs-12 voffset3">
+				<button type="button" class="smallBtnLink expandCollaspe expandLising">[+] Expand all</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+				<button type="button" class="smallBtnLink expandCollaspe collapseLising">[-] Collapse all</button>
+			</div>
 			<div class="col-xs-12 col-md-8">
 				<ul class="faqLisitng">
 					<li>
@@ -156,19 +160,19 @@
 					<li>
 						<div class="questionHead">How secure is my data?</div>
 						<div class="answerBox">
-							Data security is of great importance to LearnWorlds. We’ve implemented a secure-by-design architecture and follow the industry’s best practices to safeguard your data. For example your data remain isolated from other customers' databases. You will never share a database as is often the case with other e-learning platforms.
+							Data security is of great importance to Guruji. We've implemented a secure-by-design architecture and follow the industry's best practices to safeguard your data. For example your data remain isolated from other customers' databases. You will never share a database as is often the case with other e-learning platforms.
 						</div>
 					</li>
 					<li>
 						<div class="questionHead">Can I cancel at any time?</div>
 						<div class="answerBox">
-							Absolutely. Just login to your Podia account, go to "settings" and hit "cancel account." There are no hidden fees, no questions asked, and no gotchas.
+							Absolutely. Just login to your account, go to "settings" and hit "cancel account." There are no hidden fees, no questions asked, and no gotchas.
 						</div>
 					</li>
 					<li>
 						<div class="questionHead">Guruji is not for me. Can I have a refund?</div>
 						<div class="answerBox">
-							We offer a free 14-day trial so that you can take Podia for a spin! After that it's easy to cancel in your account settings. If you forget to cancel before the next invoice date, it's ok! We know things happen. Contact us within 72 hours of your monthly (or annual) renewal or upgrade and we'd be happy to refund the most recent payment.
+							We offer a free 14-day trial so that you can take Guruji for a spin! After that it's easy to cancel in your account settings. If you forget to cancel before the next invoice date, it's ok! We know things happen. Contact us within 72 hours of your monthly (or annual) renewal or upgrade and we'd be happy to refund the most recent payment.
 							Note: we do not offer pro-rated refunds for annual payments. Refunds take 5-10 business to process.
 						</div>
 					</li>
@@ -179,6 +183,12 @@
 						</div>
 					</li>
 				</ul>
+			</div>
+			<div class="col-xs-12 voffset3">
+				<div class="btnsWrap">
+					<a href="faqs.jsp" class="btnLink transGreen"><span>View all faqs<i></i></span></a>
+					<a href="faqs.jsp" class="btnLink transGreen"><span>Ask your question<i></i></span></a>
+				</div>
 			</div>
 		</div>
 	</div>

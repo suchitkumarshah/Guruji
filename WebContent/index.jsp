@@ -122,7 +122,7 @@
 				<h4 class="greenTxt">Unlock your subscription and<br>get unlimited access.</h4>
 				<p class="bold greenTxt">Start from <i class="currencySymbool inr"></i>1,500 per month</p>
 				<div class="btnsWrap voffset2">
-					<a href="#" class="btnLink gradBg"><span>Enrol Now!<i></i></span></a>
+					<a href="plans.jsp" class="btnLink gradBg"><span>Enrol Now!<i></i></span></a>
 				</div>
 			</div>
 		</div>
@@ -451,7 +451,7 @@
 			</div>
 			<div class="col-xs-12 voffset3">
 				<div class="btnsWrap">
-					<a href="ask-doubt.jsp" class="btnLink transGreen"><span>Ask your doubt<i></i></span></a>
+					<a href="doubt-clinic.jsp" class="btnLink transGreen"><span>Ask your doubt<i></i></span></a>
 				</div>
 			</div>
 			<div class="col-xs-12">

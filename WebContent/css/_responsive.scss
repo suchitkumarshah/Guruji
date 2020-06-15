@@ -110,6 +110,11 @@
 }
 //----------------------  start code for course details here --------------------
 //  ====================  end code  for header style here  =================
+	.faqLisitng{
+		&.col2{
+			grid-template-columns: repeat(1, 1fr);
+		}	
+	}
 }
 @media only screen and (max-width : 480px) {
 	body {
@@ -254,6 +259,16 @@
 			}
 		}
 	}
+	//========================  start code for masonry grid here ====================================
+ 	.gridMasonry {
+	  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	  article{
+	  	.content{
+	  		padding:15px;
+	  	}
+	  }
+	}
+//========================  end code for masonry grid here ======================================
 }
 @media screen and (max-width: 360px) {
 	.headerGroup{

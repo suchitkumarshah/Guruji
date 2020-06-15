@@ -804,11 +804,11 @@ hr{
 			    -webkit-transform: rotate(45deg);
 			    left: auto;
 			    right: 0;
-			    top: 13px;
+			    top: 10px;
 			}
 			&.active{
 				&:after{
-					top: 20px;
+					top: 17px;
 				    transform: rotate(-135deg);
 				    -webkit-transform: rotate(-135deg);
 				}
@@ -822,6 +822,50 @@ hr{
 				display: block;
 			}
 		}
-	}	
+	}
+	&.col2{
+		display: grid;
+		grid-gap:5px 60px;
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
   
+//========================  start code for masonry grid here ====================================
+ .gridMasonry {
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-auto-rows: 20px;
+  article{
+  	background:$white;
+  	.content{
+  		padding:30px;
+  		display: flex;
+  		flex-direction: column;
+  		flex-wrap:wrap;
+  		blockquote{
+  			margin-top:15px;
+  			font-size: 12.88px;
+  			line-height: 1.6;
+  		}
+  		.MediaWrapCnt{
+  			audio{
+  				width:100%;
+  				max-width:100%;
+  				min-width:100%;
+  			}
+  			video{
+  				width:100%;
+  				max-width:100%;
+  				min-width:100%;
+  				height:auto;
+  			}
+  		}
+  	}
+  }
+}
+//========================  end code for masonry grid here ======================================
+ 
+ 
+ 
+ 

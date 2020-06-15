@@ -155,7 +155,43 @@ loop( delay );
 		$(this).toggleClass('active');
 		$(this).next('.answerBox').slideToggle();
 	});
+	$('.expandCollaspe').on('click', function(){
+		$(this).siblings().removeClass('greenTxt');
+		$(this).addClass('greenTxt');
+	});
+	$('.expandLising').on('click', function(){
+		$('.faqLisitng').find('.answerBox').slideDown();
+	});
+	$('.collapseLising').on('click', function(){
+		$('.faqLisitng').find('.answerBox').slideUp();
+	});
 // =======================  START CODE FOR PRICING TABLE STYLE HERE  ==================
+//========================  start code for masonry grid here ==========================
+	function resizeGridItem(item){
+		let grid = $(".gridMasonry")[0];
+		let rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+		let rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+		let rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+		item.style.gridRowEnd = "span "+rowSpan;
+		console.log(grid);
+	}
 
+	function resizeAllGridItems(){
+	  let allItems = $(".gridMasonry > article");
+	  console.log(allItems);
+	  for(let x=0; x<allItems.length; x++){
+	    resizeGridItem(allItems[x]);
+	  }
+	}
+
+	function resizeInstance(instance){
+		let item = instance.elements[0];
+		resizeGridItem(item);
+	}
+
+	window.onload = resizeAllGridItems();
+	window.addEventListener("resize", resizeAllGridItems);
+
+//========================  end code for masonry grid here ============================
 // =======================  END CODE FOR PRICING TABLE STYLE HERE  ====================
 });
