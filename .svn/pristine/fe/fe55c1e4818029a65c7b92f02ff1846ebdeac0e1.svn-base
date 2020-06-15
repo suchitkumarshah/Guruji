@@ -1,0 +1,453 @@
+@import "flexboxgrid";
+@import 'theme';
+@import 'reset';
+@import 'form';
+// =======================  START CODE FOR COMMON STYLE HERE  =======================
+*{
+    font-family:$font;
+}
+body {
+	background: $lgray;
+	font-weight: 400;
+	font-size:13.88px;
+	color: $base;
+	font-family:$font;
+	padding-top:60px;
+}
+
+// =======================  END CODE FOR COMMON STYLE HERE  =========================
+// =======================  START CODE FOR HEADER STYLE HERE  =======================
+header{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	background-color:$lgray;
+	z-index:99;
+	padding-top:4px;
+	padding-bottom:8px;
+}
+.headerGroup{
+	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
+	.hamburgerNavLink{	
+		display:none;
+		text-indent:-9999px;
+		height:40px;
+		width:40px;
+		position:relative;
+		top:5px;
+		border:0;		
+		border-radius:0;
+		background:none;
+		span{
+			height:23px;
+			width:32px;
+			display:block;
+			position: relative;
+			border-top:1px solid $green;
+			border-bottom:1px solid $green;
+			&:before{
+				width:24px;
+				height:1px;
+				background:$green;
+				top:10px;
+			}
+		}
+		
+	}	
+	nav{
+		li{
+			margin-right:40px;
+			&:last-child{
+				margin-right:0;
+			}
+			a{
+				display:block;
+				font-size:13.88px;
+				font-weight:600;
+				padding-top:10px;
+				padding-bottom:10px;
+				text-transform: capitalize;
+				position:relative;
+				transition:all .25s ease;
+				&:after{
+					width:0;
+					height:1px;
+					background-color: $green;
+					bottom:8px;
+					transition:all .25s ease;
+				}
+				&:hover{
+					color:$green;
+					&:after{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+	.rgtSec{
+		padding-top:2px;
+		li{
+			margin-right:8px;
+			&:last-child{
+				margin-right:0;
+			}
+		}
+	}
+	.getStartedLink{
+		display:inline-block;
+		padding:8px 20px;
+		color:$lgray;
+		font-size:13.88px;
+		font-weight:600;
+		text-transform: capitalize;
+		border-radius:30px;
+	}
+	.mobileForm{
+		display:none;
+	}
+	.brand-logo{
+		display: inline-block;
+		width:120px;
+		height:48px;
+		img{
+			width:100%;
+			height:100%;
+			display: block;
+		}
+	}
+}
+.searchFormTop{
+	border:1px solid $green;
+	padding:3px 5px;
+	border-radius:30px;
+	input{
+		padding:4px 10px 4px 20px;
+		background: transparent url(../icon/icon-search.png) no-repeat 0 center;
+	}
+}
+.mobilesearchFormTop{
+	display:none;
+	border:1px solid $green;
+	padding:3px 5px;
+	border-radius:30px;
+	margin-top:5px;
+	input{
+		padding:4px 10px 4px 20px;
+		width:100%;
+		background: transparent url(../icon/icon-search.png) no-repeat 0 center;
+	}
+}
+// =======================  START CODE FOR HEADER STYLE HERE  =======================
+// =======================  START CODE FOR HOME PAGE STYLE HERE  ====================
+.pageHero{
+	padding-top:15px;
+	padding-bottom:30px;
+	.classHlgt{
+		text-transform:uppercase;
+		font-size:90px;
+		font-weight:800;
+		letter-spacing:-0.033em;
+		line-height:1;
+	}
+}
+.heroBtmCurve{
+	width:100%;
+	margin-top: -50px;
+}
+.introBtm{
+	margin-top:-40px;
+}
+.catTopCurve{
+	margin-top:-10%;
+	padding-top:12%;
+}
+.gurujiIntro{
+	margin-top: -5px;
+	padding-top:0;
+	padding-bottom:0;
+}
+.mentorList{
+	li{
+		position:relative;
+		overflow:hidden;
+		h6{
+			line-height:1;
+		}
+	}
+}
+.classDispRect{	
+	display:block;
+	width:100%;
+	padding-bottom:5px;
+	&.lgrayBg{
+		background:$lgray;
+	}
+	&.whiteBg{
+		background:$white;
+	}
+	.img-fluidThumb{
+		border-bottom-left-radius:0;
+		border-bottom-right-radius:0;
+	}
+	.itemDetails{
+		padding:15px;
+		display:block;
+		&.nolspace{
+			padding:5px 20px 40px 0;
+		}
+	}
+}
+
+// =======================  END CODE FOR HOME PAGE STYLE HERE  ======================
+// =======================  START CODE FOR LISTING PAGE HERE  =======================
+.pageHeading{
+	font-size: 29.88px;
+    letter-spacing: -0.033em;
+    font-weight: 800;
+    line-height: 1;
+}
+.pageSubHeading{
+	font-size: 13.88px;
+	font-weight: 700;
+	margin-top:8px;
+	line-height: 1;
+}
+.mentorListItems{
+	display:block;
+	width:100%;
+}
+.stickyMain{
+	position:relative;
+	.stickyNavTop{
+		position:sticky;
+		top:60px;
+		background:$white;
+		padding-top:15px;
+		padding-bottom: 15px;
+		z-index:11;
+	}
+	.sntCntWrap{
+		
+	}
+}
+// =======================  END CODE FOR LISTING PAGE HERE  =========================
+// =======================  START CODE FOR COURSE DETAILS PAGE HERE  ================
+.breadcrumb{
+	li{
+		display:inline-block;
+		margin-right:10px;
+		&:last-child{
+			margin-right:0;
+		}
+		a{
+			font-weight:600;
+			font-size:12.22px;
+			display:block;
+			padding:8px 0;
+			color:$green;
+		}
+	}
+}
+.courseTopIntro{
+	padding:0 20px 30px 20px;
+}
+.courseBuyWrap{
+	border:1px solid $silver;
+	padding:10px 20px 20px 20px;
+	background:$white;
+	box-shadow:0 0 10px rgba($base, .1);
+}
+.scrollSpyTabNav{
+	li{
+		margin-right:15px;
+		&:last-child{
+			margin-top:0;
+		}
+		a{
+			color:$base;
+			font-size:14.22px;
+			font-weight:600;
+			display:inline-block;
+			padding-top:15px;
+			padding-bottom:15px;
+			&.active{
+				color:$green;
+			}
+		}
+	}
+}
+.scrollCntWrap{
+	
+}
+.courseSocialShare{
+	li{
+		display:inline-block;
+		margin-right:10px;
+		&:last-child{
+			margin-right:0;
+		}
+		a{
+			display:block;
+			font-weight:600;
+			font-size:12.22px;
+			padding:10px 0;
+		}
+	}
+}
+.faqsListing{
+	> li{
+		margin-bottom:30px;
+		&:last-child{
+			margin-bottom:0px;
+		}
+	}
+	.queHead{
+		font-weight: 600;
+		font-size: 14.88px;
+	}
+	.answerCntWrap{
+		p, ul, li{
+			font-size: 12.22px;
+		}
+		a{
+			font-weight: 600;
+			text-decoration: underline;
+			color:$black;
+		}
+		li{
+			margin: auto;
+			margin-left:15px;
+			padding: auto;
+			list-style: disc;
+		}
+	}
+}
+.ratingsBars{
+	width:100%;
+	max-width:400px;
+	h6{
+		margin-bottom:0;
+		line-height: 1.2;
+	}li{
+		margin-bottom: 8px;
+	}
+	color:$slate;
+}
+.courseReviewList{
+	li{
+		margin-bottom:30px;
+		border-bottom:1px dashed rgba($base, .15);
+		padding-bottom:10px;
+		padding-top:10px;
+		&:last-child{
+			margin-bottom:0;
+		}
+	}
+}
+// =======================  END CODE FOR COURSE DETAILS PAGE HERE  ==================
+// =======================  START CODE FOR FOOTER STYLE HERE  =======================
+footer{
+	padding-top:60px;
+	padding-bottom:60px;
+	background-color:$base;
+	color:$silver;
+	h6{
+		font-weight:700;
+		text-transform: uppercase;
+	}
+	.footer-link{
+		margin-top: 10px;
+		font-size:12.22px;
+		a{
+			font-weight:500;
+			display: inline-block;
+			padding-top:5px;
+			padding-bottom:5px;
+			position:relative;
+			&:after{
+				width:0;
+				height:1px;
+				background-color:$slate;
+				transition:all .25s ease;
+				bottom:3px;
+			}
+			&:hover{
+				&:after{
+					width:100%;
+				}
+			}
+		}
+	}
+}
+.site-introduction{
+	padding-top:60px;
+	padding-bottom:60px;
+	background-color:$slate;
+	color: $silver;
+	h6{
+		font-weight:600;
+	}
+	a{
+		text-transform: capitalize;
+		text-decoration: underline;
+		display:inline-block;
+		padding:8px 0;
+	}
+}
+.footer-icons{
+	li{
+		margin-right:8px;
+		margin-top:10px;
+		height:44px;
+		width:44px;
+		overflow:hidden;
+		a{
+			display:block;
+			height:100%;
+			width:100%;
+			border-radius:50%;
+			background:$slate;
+			i{
+				display:block;
+				height:100%;
+				width:100%;
+				background:$silver;
+				&.facebook{
+					mask: url('../icon/icon-facebook.svg') no-repeat center / 25%;
+    				-webkit-mask: url('../icon/icon-facebook.svg') no-repeat center / 25%;
+				}
+				&.twitter{
+					mask: url('../icon/icon-twitter.svg') no-repeat center / 48%;
+    				-webkit-mask: url('../icon/icon-twitter.svg') no-repeat center / 48%;
+				}
+				&.linkedin{
+					mask: url('../icon/icon-linkedin.svg') no-repeat center / 48%;
+    				-webkit-mask: url('../icon/icon-linkedin.svg') no-repeat center / 48%;
+				}
+				&.youtube{
+					mask: url('../icon/icon-youtube.svg') no-repeat center / 50%;
+    				-webkit-mask: url('../icon/icon-youtube.svg') no-repeat center / 50%;
+				}
+				
+				&.call{
+					mask: url('../icon/icon-call.svg') no-repeat center / 50%;
+    				-webkit-mask: url('../icon/icon-call.svg') no-repeat center / 50%;
+				}
+				&.mail{
+					mask: url('../icon/icon-mail.svg') no-repeat center / 50%;
+    				-webkit-mask: url('../icon/icon-mail.svg') no-repeat center / 50%;
+				}
+				&.whatsapp{
+					mask: url('../icon/icon-whatsapp.svg') no-repeat center / 50%;
+    				-webkit-mask: url('../icon/icon-whatsapp.svg') no-repeat center / 50%;
+				}
+			}
+		}	
+	}
+}
+// =======================  START CODE FOR FOOTER STYLE HERE  =======================
+@import 'responsive';

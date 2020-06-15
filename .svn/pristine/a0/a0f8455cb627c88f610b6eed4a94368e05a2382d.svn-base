@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Guruji.com - Join live classes</title>
+<link rel="shortcut icon" href="icon/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+<link rel="icon" type="image/png" sizes="192x192" href="icon/guruji-favicon-32x32.png">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="headerGroup">
+					<button type="button" class="hamburgerNavLink"><span>Site navigation</span></button>
+					<a href="#" class="brand-logo"><img src="img/guruji-logo.svg"></a>
+					<nav class="siteMenuLink">
+						<ul class="inline">
+							<li><a href="#">Live classes</a></li>
+							<li><a href="#">Tests</a></li>
+							<li><a href="#">Quizzes</a></li>
+							<li><a href="#">QBank</a></li>
+							<li><a href="#">Mentors</a></li>
+							<li><a href="#">Plans</a></li>
+						</ul>
+					</nav>
+					<ul class="rgtSec inline">
+						<li>
+							<form class="searchFormTop">
+								<input type="search" placeholder="What do you want to prepare" />
+							</form>
+						</li>
+						<li><a href="#" class="gradBg getStartedLink">Get started</a></li>
+					</ul>
+				</div>
+				<form class="mobilesearchFormTop">
+					<input type="search" placeholder="What do you want to prepare" />
+				</form>
+			</div>
+		</div>
+	</div>
+</header>

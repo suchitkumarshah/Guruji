@@ -1,0 +1,125 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="/" class="brand-logo"><img src="img/guruji-logo-gray.svg"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 voffset4">
+				<h6>Follow us</h6>
+				<ul class="footer-icons social-share inline">
+					<li><a href="#"><i class="facebook"></i></a></li>
+					<li><a href="#"><i class="twitter"></i></a></li>
+					<li><a href="#"><i class="linkedin"></i></a></li>
+					<li><a href="#"><i class="youtube"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 voffset4">
+				<h6>Quick connect</h6>
+				<ul class="footer-icons quick-connect inline">
+					<li><a href="#"><i class="call"></i></a></li>
+					<li><a href="#"><i class="mail"></i></a></li>
+					<li><a href="#"><i class="whatsapp"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 voffset4">
+				<h6>Help desk</h6>
+				<h4 class="greenTxt">+91 78400 50071</h4>
+				<h6><small>Mon - Fri : 9am - 6pm  |  <a href="#" class="greenTxt">support@guru-ji.com</a></small></h6>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 voffset4">
+				<h6>Newsletter subscription</h6>
+			</div>
+		</div>
+		<form class="footer-subscription slatBg" method="post">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 voffset2">
+					<div class="form-group">
+						<input type="text" name="newsletter_name" class="form-control" placeholder="Full name" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 voffset2">
+					<input type="email" name="newsletter_email" class="form-control" placeholder="Emaill address" required />
+				</div>
+				<div class="col-xs-12 col-sm-4 voffset2">
+					<button type="submit" class="fullWidth green"><span>Add me in list<i class="rightArrow white"></i></span></button>
+				</div>
+			</div>
+		</form>
+		<div class="row voffset4">
+			<div class="col-xs-6 col-sm-3 voffset4">
+				<h6>Company</h6>
+				<ul class="footer-link">
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">In the media</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">© Copyright 2020</a></li>
+				</ul>
+			</div>			
+			<div class="col-xs-6 col-sm-3 voffset4">
+				<h6>Work with us</h6>
+				<ul class="footer-link">
+					<li><a href="#">Become a mentor</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Work as a guest</a></li>
+					<li><a href="#">Partner with us</a></li>
+					<li><a href="#">Become a promoter</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-3 voffset4">
+				<h6>For Students</h6>
+				<ul class="footer-link">
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Live Courses</a></li>
+					<li><a href="#">Quizzes</a></li>
+					<li><a href="#">Live Test</a></li>
+					<li><a href="#">QBank</a></li>
+					<li><a href="#">E-Book</a></li>
+					<li><a href="#">Solutions Paper</a></li>
+					<li><a href="#">Subscription Plans</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Request a call back</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-3 voffset4">
+				<h6>Legals</h6>
+				<ul class="footer-link">
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Terms & conditions</a></li>
+					<li><a href="#">User guidelines</a></li>
+					<li><a href="#">Change & Refund</a></li>
+					<li><a href="#">Notices</a></li>
+					<li><a href="#">GDPR</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Subscription</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="site-introduction">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h6 class="text-uppercase">ABOUT Guruji.com - INDIA’S NO. 1 live class COACHING</h6>
+				<p><small>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+				</small></p>
+				<a href="#">Read more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/form_validation.js"></script>
+<script src="js/functions.js"></script>
+</body>
+</html>

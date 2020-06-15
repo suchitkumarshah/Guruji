@@ -1,0 +1,18 @@
+$black: #000000;
+$base: #252D2E;
+
+$white: #ffffff;
+$gray: #5E5E5E;
+$slate: #7A8687;
+$silver: #D1DADB;
+$lgray:#f4f4f4;
+$baseBg: #E7ECEB;
+
+$green: #0BB77B;
+$blue: #00A2C4;
+$red : #C73535;
+$orange: #CF7500;
+
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap);
+$font: 'Manrope', sans-serif;
+
