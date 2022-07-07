@@ -13,7 +13,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gwtVersion>2.9.0</gwtVersion>
-	 <jetty.version>10.0.0.alpha2</jetty.version>
+	 <jetty.version>10.0.10</jetty.version>
 	<webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        <grpc.version>1.20.0</grpc.version>
